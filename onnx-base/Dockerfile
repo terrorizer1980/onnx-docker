@@ -1,4 +1,4 @@
-FROM python:3.7-slim
+FROM python:3.13.0a3-slim
 MAINTAINER Vinitra Swamy "viswamy@microsoft.com"
 RUN apt-get update && apt-get install -y --no-install-recommends \
          build-essential=12.6 \
