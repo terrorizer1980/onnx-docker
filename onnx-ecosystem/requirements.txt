@@ -37,3 +37,4 @@ mxnet==1.6.0
 onnx
 onnxmltools
 onnxruntime
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
