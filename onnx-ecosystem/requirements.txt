@@ -14,7 +14,7 @@ tensorflow==1.15.2
 keras==2.1.6
 keras2onnx
 
-scikit-learn==0.20.0
+scikit-learn==1.5.0
 skl2onnx
 
 tf2onnx
@@ -37,3 +37,5 @@ mxnet==1.6.0
 onnx
 onnxmltools
 onnxruntime
+jupyter-server>=2.14.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
