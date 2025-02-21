@@ -27,7 +27,7 @@ xgboost==0.81
 svm==0.1.0
 
 glibc==0.6.1
-lightgbm==2.2.3
+lightgbm==4.6.0
 
 cntk==2.6
 
